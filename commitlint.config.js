@@ -45,7 +45,7 @@ export default {
         'translation',
         'security',
         'changeset',
-        'enhancement'
+        'enhancement',
       ],
     ],
   },
