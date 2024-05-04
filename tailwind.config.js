@@ -8,7 +8,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['"Roboto", sans-serif'],
+        montserrat: ['"Montserrat", sans-serif']
+      },
+      colors: {
+        primary: '#27366f',
+        secondary: '9eb7da',
+        tertiary: '#2e3752',
+        lavender: '#dfe5f5',
+        pink: 'd2bbc4'
+      }
+    },
   },
   plugins: [],
 }
