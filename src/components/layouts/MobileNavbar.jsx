@@ -15,10 +15,13 @@ const MobileNavbar = ({ isOpen, toggle }) => {
             </a>
           </li>
           <li>
-          <a href="/signup" className="bg-lavender text-primary px-4 py-2 rounded">
-            get started
-          </a>
-         </li>
+            <a
+              href="/signup"
+              className="bg-lavender text-primary px-4 py-2 rounded"
+            >
+              get started
+            </a>
+          </li>
         </div>
         <div className="flex flex-col justify-center items-center gap-12 p-2 font-medium text-sm capitalize">
           <li>
