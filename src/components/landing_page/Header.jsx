@@ -30,7 +30,7 @@ const Header = () => {
               Pay
             </button>
           </div>
-          <div className="bg-secondary/70 flex flex-col justify-center items-center w-48 rounded p-5 absolute bottom-0 right-0 font-semibold gap-2">
+          <div className="bg-secondary/70 flex flex-col justify-center items-center w-96 rounded p-5 absolute -bottom-10 -right-10 font-semibold gap-2">
             <img src="logos/primary.png" className="w-16" />
             <p className="text-sm ">
               You have earned a <b>FREE</b> ride today.
