@@ -15,10 +15,10 @@ export default {
       },
       colors: {
         primary: '#27366f',
-        secondary: '9eb7da',
+        secondary: '#9eb7da',
         tertiary: '#2e3752',
         lavender: '#dfe5f5',
-        pink: 'd2bbc4',
+        pink: '#d2bbc4',
       },
     },
   },

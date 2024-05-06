@@ -20,14 +20,14 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`fixed flex justify-between items-center z-10 ${
+      className={`fixed flex justify-between items-center z-50 bg-lavender ${
         scrollNav
           ? 'ml-0 mt-0 py-6 px-10 shadow-sm w-full'
           : 'ml-10 mt-10 sm:w-10/12 w-8/12'
       }`}
     >
       <div className="flex items-center gap-1">
-        <img src="logos/primary.png" className="w-10" />
+        <img src="logos/primary.png" className="w-10" alt="logo" />
         <a href="/" className="sm:text-2xl text-xl font-bold text-primary">
           safiri.
         </a>
@@ -39,29 +39,29 @@ const NavBar = () => {
       </div>
       <ul className="hidden md:flex gap-6 p-2 font-medium text-sm capitalize">
         <li>
-          <a href="#solutions" className="hover:underline">
+          <a href="#solutions" className="hover:underline hover:text-tertiary">
             solutions
           </a>
         </li>
         <li>
-          <a href="#usecases" className=" hover:underline">
+          <a href="#usecases" className="hover:underline hover:text-tertiary">
             use cases
           </a>
         </li>
         <li>
-          <a href="#company" className="hover:underline">
+          <a href="#company" className="hover:underline hover:text-tertiary">
             company
           </a>
         </li>
         <li>
-          <a href="#clients" className="hover:underline">
+          <a href="#clients" className="hover:underline hover:text-tertiary">
             clients
           </a>
         </li>
       </ul>
       <ul className="hidden md:flex gap-6 p-2 font-medium text-sm capitalize">
         <li>
-          <a href="/login" className="hover:underline">
+          <a href="/login" className="hover:underline hover:text-tertiary">
             login
           </a>
         </li>

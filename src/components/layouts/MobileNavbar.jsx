@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const MobileNavbar = ({ isOpen, toggle }) => {
   return (
     isOpen && (
-      <ul className="flex-col flex fixed inset-0 left-1/4 bg-primary gap-8 items-center pt-28 px-10  text-white  font-medium  text-sm">
+      <ul className="flex-col flex fixed inset-0 left-1/4 bg-primary gap-8 items-center pt-28 px-10  text-white  font-medium  text-sm z-50">
         <div className="absolute right-16 top-10">
           <IoCloseSharp className="text-xl" onClick={toggle} />
         </div>
