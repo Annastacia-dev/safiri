@@ -3,9 +3,9 @@ import { FaWifi } from 'react-icons/fa';
 const Header = () => {
   return (
     <>
-      <div className="grid lg:grid-cols-2 justify-center gap-4 lg:pt-32 lg:px-16">
+      <div className="grid lg:grid-cols-2 justify-center gap-4 lg:pt-32 pt-20 lg:px-16 px-8">
         <div className="flex flex-col gap-8 mt-10">
-          <h1 className="lg:text-6xl  font-bold text-primary">
+          <h1 className="lg:text-6xl text-4xl  font-bold text-primary">
             Travel easy
             <br />
             Go cashless
@@ -20,8 +20,8 @@ const Header = () => {
           </button>
         </div>
         <div className="relative">
-          <img src="images/illustration.png" className="" alt="" />
-          <div className="bg-primary/70 text-white flex flex-col justify-center items-center w-48 rounded p-5 absolute top-20 -left-20 font-semibold gap-2">
+          <img src="images/illustration.png"  alt="an illustration of two people on a train, the man is sitting down on their phone and a girl standing holding on to the pole listening to music" />
+          <div className="bg-primary/70 text-white flex flex-col justify-center items-center w-48 rounded p-5 lg:absolute lg:top-20 lg:-left-20 font-semibold gap-2">
             <div className="bg-white/40 text-primary text-xl p-3 rounded-full flex justify-center items-center">
               <FaWifi />
             </div>
@@ -30,7 +30,7 @@ const Header = () => {
               Pay
             </button>
           </div>
-          <div className="bg-secondary/70 flex flex-col justify-center items-center w-96 rounded p-5 absolute -bottom-10 -right-10 font-semibold gap-2">
+          <div className="bg-secondary/70 flex flex-col justify-center items-center lg:w-96 w-72 rounded p-5 lg:absolute lg:-bottom-10 lg:-right-10 font-semibold gap-2 lg:mt-0 mt-4 lg:ml-0 ml-10">
             <img src="logos/primary.png" className="w-16" />
             <p className="text-sm ">
               You have earned a <b>FREE</b> ride today.
