@@ -20,7 +20,10 @@ const Header = () => {
           </button>
         </div>
         <div className="relative">
-          <img src="images/illustration.png"  alt="an illustration of two people on a train, the man is sitting down on their phone and a girl standing holding on to the pole listening to music" />
+          <img
+            src="images/illustration.png"
+            alt="an illustration of two people on a train, the man is sitting down on their phone and a girl standing holding on to the pole listening to music"
+          />
           <div className="bg-primary/70 text-white flex flex-col justify-center items-center w-48 rounded p-5 lg:absolute lg:top-20 lg:-left-20 font-semibold gap-2">
             <div className="bg-white/40 text-primary text-xl p-3 rounded-full flex justify-center items-center">
               <FaWifi />

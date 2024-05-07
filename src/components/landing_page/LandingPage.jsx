@@ -1,5 +1,6 @@
 import Navbar from '../layouts/Navbar';
 import Header from './Header';
+import Solutions from './Solutions';
 import Footer from '../layouts/Footer';
 
 const LandingPage = () => {
@@ -7,6 +8,7 @@ const LandingPage = () => {
     <>
       <Navbar />
       <Header />
+      <Solutions />
       <Footer />
     </>
   );
