@@ -5,10 +5,8 @@ const Header = () => {
     <>
       <div className="grid lg:grid-cols-2 justify-center gap-4 lg:pt-32 pt-20 lg:px-16 px-8">
         <div className="flex flex-col gap-8 mt-10">
-          <h1 className="lg:text-6xl text-4xl  font-bold text-primary">
-            Travel easy
-            <br />
-            Go cashless
+          <h1 className="lg:text-6xl text-4xl lg:w-3/4 font-bold text-primary">
+            Go cashless, travel easy
           </h1>
           <p className="lg:w-3/4 leading-7 text-sm font-medium">
             Whether you&apos;re commuting daily or exploring destinations enjoy
@@ -33,9 +31,9 @@ const Header = () => {
               Pay
             </button>
           </div>
-          <div className="bg-secondary/70 flex flex-col justify-center items-center lg:w-96 w-72 rounded p-5 lg:absolute lg:-bottom-10 lg:-right-10 font-semibold gap-2 lg:mt-0 mt-4 lg:ml-0 ml-10">
+          <div className="bg-secondary/70 flex flex-col justify-center items-center lg:w-96 w-72 rounded p-5 lg:absolute lg:-bottom-20 lg:-right-10 font-semibold gap-5 lg:mt-0 mt-4 lg:ml-0 ml-10">
             <img src="logos/primary.png" className="w-16" />
-            <p className="text-sm ">
+            <p className="text-sm">
               You have earned a <b>FREE</b> ride today.
               <br />
               Thank you for being a loyal customer
